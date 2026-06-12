@@ -17,7 +17,15 @@ INSERT INTO skill_tag (id, skill_name, normalized_name, skill_type, alias_names)
 (12, 'ETL', 'ETL', '数据工程', '数据抽取转换加载'),
 (13, 'Docker', 'Docker', '部署工具', '容器'),
 (14, '数据安全', '数据安全', '安全能力', 'Data Security'),
-(15, '强化学习', '强化学习', '算法能力', 'Reinforcement Learning;RL');
+(15, '强化学习', '强化学习', '算法能力', 'Reinforcement Learning;RL'),
+(16, 'LLM API', 'LLM API', 'AI接口', '大模型接口;AI API'),
+(17, 'Postman', 'Postman', '测试工具', 'Postman API Platform'),
+(18, 'SQL', 'SQL', '数据库', '结构化查询语言'),
+(19, 'Hive', 'Hive', '数据仓库', 'Apache Hive'),
+(20, 'Linux', 'Linux', '操作系统', 'Linux系统'),
+(21, '身份认证', '身份认证', '安全能力', '认证;鉴权'),
+(22, 'C++', 'C++', '编程语言', 'CPP'),
+(23, '嵌入式系统', '嵌入式系统', '嵌入式能力', 'Embedded System');
 
 INSERT INTO job_info (id, job_title, job_direction, company_name, city, publish_time, job_description, source_platform, batch_no) VALUES
 (1, '元宝数据平台-后台开发工程师', '后端开发', '腾讯云智研发子公司', '西安', '2026-05-09', '支持元宝内部数据服务平台开发，保障数据上报质量；要求服务端开发经验，掌握 Go/C++/Java 之一，熟悉 MySQL、Redis、MongoDB、Kafka、RabbitMQ、Spark、ClickHouse、StarRocks。', '腾讯招聘公开接口', 'batch_real_20260612'),
@@ -31,19 +39,57 @@ INSERT INTO job_info (id, job_title, job_direction, company_name, city, publish_
 (9, 'SSD固件开发高级工程师', '嵌入式开发', '腾讯云', '深圳', '2026-06-03', '负责企业级 SSD 固件设计开发、固件算法优化、代码开发测试、自动化测试脚本和硬件兼容。', '腾讯招聘公开接口', 'batch_real_20260612'),
 (10, 'Game AI Research Intern', '机器学习算法', '腾讯', '东京', '2025-11-03', '负责游戏场景强化学习算法探索与开发，训练 RL 模型并与团队协作达成研究目标。', '腾讯招聘公开接口', 'batch_real_20260612');
 
+INSERT INTO job_skill_relation (job_id, skill_id, weight, evidence_text) VALUES
+(1, 1, 1.00, '精通 GO/C++/Java 中的一种或多种'),
+(1, 2, 1.00, '熟悉 MySQL/Redis/MongoDB'),
+(1, 3, 1.00, '熟悉 MySQL/Redis/MongoDB'),
+(1, 4, 0.80, '熟悉 Spark/ClickHouse/StarRocks'),
+(2, 5, 1.00, '精通 TypeScript、主流前端框架及构建工具'),
+(2, 6, 0.80, '熟悉 HTML5 Canvas/WebGL'),
+(2, 16, 0.80, '对接 LLM API，参与 AI 对话界面及 Agent 工作流前端实现'),
+(3, 8, 1.00, '精通 Python/GO'),
+(3, 17, 0.80, '掌握 JMeter/Postman'),
+(3, 9, 1.00, '设计并落地自动化测试体系'),
+(4, 7, 1.00, '主导 LLM 对话交互设计'),
+(4, 10, 1.00, '设计 LLM 的系统提示词'),
+(5, 8, 1.00, '熟练使用 Python/R'),
+(5, 11, 1.00, '有 AB 实验、因果推断经验'),
+(5, 4, 0.80, '熟悉 Hive、Spark'),
+(6, 18, 1.00, '精通 SQL'),
+(6, 12, 1.00, '承担数据 ETL 的开发与调度'),
+(6, 19, 0.80, '有 Spark、Hive 使用经验者优先'),
+(7, 20, 1.00, '熟悉 Linux、TCP/HTTP、Shell'),
+(7, 13, 0.80, '了解 Kubernetes、Docker'),
+(8, 14, 1.00, '熟悉数据全生命周期安全体系'),
+(8, 21, 0.80, '熟悉身份认证、数据加密、API 异常检测'),
+(9, 22, 1.00, '熟练掌握 C/C++、Python/Shell'),
+(9, 23, 1.00, '5年以上嵌入式系统固件开发经验'),
+(10, 8, 1.00, 'Python and PyTorch experience'),
+(10, 15, 1.00, 'reinforcement learning model tuning');
+
 INSERT INTO student_profile (id, student_code, major, grade, skills, project_experience, target_job_direction) VALUES
 (1, 'STU001', '软件工程', '大三', 'Java;MySQL;Redis;Git', '做过课程管理系统后端接口和简单缓存查询', '后端开发'),
 (2, 'STU002', '计算机科学与技术', '大二', 'HTML;CSS;JavaScript;Vue 3', '做过个人作品集网站和课程作业管理页面', '前端开发'),
-(3, 'STU003', '人工智能', '研一', 'Python;PyTorch;机器学习', '做过文本分类实验和强化学习入门作业', '机器学习算法');
+(3, 'STU003', '人工智能', '研一', 'Python;PyTorch;机器学习', '做过文本分类实验和机器学习入门作业', '机器学习算法');
 
 INSERT INTO course_resource (id, course_name, skill_tags, suitable_level, recommend_reason) VALUES
 (1, '消息队列与缓存入门', 'Redis;Kafka;RabbitMQ;缓存;消息队列', '进阶', '补齐后台开发岗位中 Redis、Kafka、RabbitMQ 等组件能力'),
 (2, 'TypeScript 前端工程化', 'TypeScript;前端框架;构建工具;代码质量', '入门', '补齐 AI 产品前端岗位中 TypeScript、工程化和可复用架构能力'),
 (3, 'Python 自动化测试', 'Python;Pytest;自动化测试;质量报告', '入门', '支撑自动化测试岗位的脚本开发和测试体系建设'),
-(4, '强化学习与 PyTorch 实践', 'Python;PyTorch;强化学习;模型调优', '进阶', '补齐 Game AI Research 岗位中的强化学习算法实现和模型训练能力');
+(4, '强化学习与 PyTorch 实践', 'Python;PyTorch;强化学习;模型调优', '进阶', '补齐 Game AI Research 岗位中的强化学习算法实现和模型训练能力'),
+(5, 'Spark 与 Hive 数据工程', 'Spark;Hive;ETL;SQL;数据链路', '进阶', '补齐后端和大数据岗位中 Spark、Hive 与 ETL 数据处理能力'),
+(6, 'Canvas 与 WebGL 交互开发', 'Canvas;WebGL;复杂交互;动画', '进阶', '补齐 AI 产品前端和游戏相关前端岗位中的交互渲染能力'),
+(7, '大模型产品与 Prompt 工程', 'LLM API;LLM;Prompt 工程;AI产品设计', '入门', '补齐 AI 产品前端岗位中的 LLM API 对接和对话流程理解');
 
 INSERT INTO training_task (id, task_name, required_skills, difficulty_level, expected_output) VALUES
 (1, '数据服务平台后端接口开发', 'Java;MySQL;Redis;Kafka;REST API', '进阶', '后端服务;接口文档;数据库表设计;消息队列模拟说明'),
 (2, 'AI 对话界面与岗位图谱前端实现', 'TypeScript;前端框架;Canvas;LLM API;Agent', '进阶', '前端页面;组件说明;接口联调记录'),
 (3, 'AI 应用接口测试与自动化用例生成', 'Python;Pytest;Postman;自动化测试;LLM', '进阶', '测试脚本;Postman 集合;质量报告'),
-(4, '岗位匹配分预测实验与评估报告', 'Python;PyTorch;强化学习;模型调优;模型评估', '进阶', '实验脚本;评估报告;特征说明');
+(4, '岗位匹配分预测实验与评估报告', 'Python;PyTorch;强化学习;模型调优;模型评估', '进阶', '实验脚本;评估报告;特征说明'),
+(5, 'Linux 日志 ETL 与技能热度统计任务', 'Spark;ETL;MySQL;数据链路', '入门', '日志清洗脚本;统计结果表;处理流程说明'),
+(6, 'AI 人岗匹配诊断报告产品原型', 'LLM API;LLM;Prompt 工程;AI产品设计', '入门', 'PRD;Prompt 模板;评估用例表');
+
+INSERT INTO recommendation_record (student_id, target_job_direction, matched_skills, missing_skills, job_match_score, recommended_courses, recommended_tasks, advice_report) VALUES
+(1, '元宝数据平台-后台开发工程师', 'Java;MySQL;Redis', 'Spark', 85.00, 'Spark 与 Hive 数据工程', 'Linux 日志 ETL 与技能热度统计任务', '该学生具备后端岗位主要基础能力，下一步优先补齐 Spark 数据处理能力。'),
+(2, 'AW项目组-AI产品前端工程师', '暂无', 'TypeScript;Canvas;LLM API', 10.00, 'TypeScript 前端工程化;Canvas 与 WebGL 交互开发;大模型产品与 Prompt 工程', 'AI 对话界面与岗位图谱前端实现;AI 人岗匹配诊断报告产品原型', '该学生有基础前端经验，但与 AI 产品前端岗位差距明显，应先补 TypeScript、Canvas 和 LLM API 对接。'),
+(3, 'Game AI Research Intern', 'Python', '强化学习', 55.00, '强化学习与 PyTorch 实践', '岗位匹配分预测实验与评估报告', '该学生具备算法基础，但需要补齐强化学习算法实现和模型调优能力。');

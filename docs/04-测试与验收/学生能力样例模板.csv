@@ -1,4 +1,4 @@
 student_id,年级,专业,目标岗位,已掌握技能,项目经历,项目技术栈,兴趣方向,当前问题,依据说明
 STU001,大三,软件工程,元宝数据平台-后台开发工程师,Java;MySQL;Redis;Git,做过课程管理系统后端接口和简单缓存查询,Java;MySQL;Redis;Git,后端开发,缺少 Go/C++、MongoDB、Kafka/RabbitMQ、Spark/ClickHouse/StarRocks 等真实岗位要求中的组件经验,用于演示真实后端岗位下学生从课程项目到数据平台开发的差距
 STU002,大二,计算机科学与技术,AW项目组-AI产品前端工程师,HTML;CSS;JavaScript;Vue 3,做过个人作品集网站和课程作业管理页面,HTML;CSS;JavaScript;Vue 3,前端开发,缺少 TypeScript、Canvas/WebGL、LLM API、Agent 工作流前端经验,用于演示 AI 产品前端岗位的工程化和 AI 交互能力缺口
-STU003,研一,人工智能,Game AI Research Intern,Python;PyTorch;机器学习,做过文本分类实验和强化学习入门作业,Python;PyTorch;scikit-learn,机器学习算法,缺少系统性强化学习算法实现、多智能体强化学习和英文技术沟通经验,用于演示算法研究岗位对学生实验能力和研究能力的要求
+STU003,研一,人工智能,Game AI Research Intern,Python;PyTorch;机器学习,做过文本分类实验和机器学习入门作业,Python;PyTorch;scikit-learn,机器学习算法,缺少系统性强化学习算法实现、多智能体强化学习和英文技术沟通经验,用于演示算法研究岗位对学生实验能力和研究能力的要求
