@@ -1,0 +1,61 @@
+skill_id,标准技能名,别名,技能类型,适用岗位方向,难度层级,抽取关键词,依据来源,依据URL
+SK001,Java,Java SE;JDK,编程语言,Java后端;软件开发,入门,Java;JDK,O*NET Software Developers,https://www.onetonline.org/link/summary/15-1252.00
+SK002,Spring Boot,SpringBoot;Spring,框架,Java后端,入门,Spring Boot;SpringBoot,Spring 官方文档,https://spring.io/projects/spring-boot
+SK003,REST API,RESTful API;接口开发,工程能力,Java后端;AI应用;前端开发,入门,REST API;RESTful;接口,O*NET Software Developers,https://www.onetonline.org/link/summary/15-1252.00
+SK004,MySQL,MySQL数据库,数据库,Java后端;数据分析;软件测试,入门,MySQL;数据库表设计,MySQL 官方文档,https://dev.mysql.com/doc/
+SK005,Redis,缓存;Redis缓存,中间件,Java后端,入门,Redis;缓存,Redis 官方文档,https://redis.io/docs/latest/
+SK006,Git,版本控制;代码协作,工程工具,通用,入门,Git;版本控制;代码协作,Git 官方文档,https://git-scm.com/doc
+SK007,HTML,HTML5,前端基础,前端开发,入门,HTML;HTML5,O*NET Web Developers,https://www.onetonline.org/link/summary/15-1254.00
+SK008,CSS,CSS3,前端基础,前端开发,入门,CSS;CSS3,O*NET Web Developers,https://www.onetonline.org/link/summary/15-1254.00
+SK009,JavaScript,JS;ECMAScript,编程语言,前端开发,入门,JavaScript;JS,O*NET Web Developers,https://www.onetonline.org/link/summary/15-1254.00
+SK010,Vue 3,Vue;Vue.js,框架,前端开发,入门,Vue 3;Vue;Vue.js,Vue 官方文档,https://vuejs.org/guide/introduction.html
+SK011,Element Plus,ElementPlus,UI框架,前端开发,入门,Element Plus;ElementPlus,Element Plus 官方文档,https://element-plus.org/
+SK012,ECharts,Apache ECharts,可视化,前端开发;数据分析,入门,ECharts;关系图;图谱,ECharts 官方文档,https://echarts.apache.org/handbook/en/get-started/
+SK013,测试用例设计,Test Case,测试能力,软件测试,入门,测试用例;用例设计,O*NET SQA Analysts and Testers,https://www.onetonline.org/link/summary/15-1253.00
+SK014,接口测试,API Testing,测试能力,软件测试,入门,接口测试;API测试,O*NET SQA Analysts and Testers,https://www.onetonline.org/link/summary/15-1253.00
+SK015,Postman,Postman API Platform,测试工具,软件测试,入门,Postman,Postman 官方文档,https://learning.postman.com/docs/introduction/overview/
+SK016,SQL,结构化查询语言,数据库,数据分析;软件测试;大数据开发,入门,SQL;查询,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK017,Python,Python3,编程语言,AI应用;数据分析;机器学习算法,入门,Python;Python3,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK018,pandas,Pandas,数据处理,数据分析;AI应用,入门,pandas;Pandas,pandas 官方文档,https://pandas.pydata.org/docs/
+SK019,FastAPI,Fast API,框架,AI应用;Python后端,入门,FastAPI;Fast API,FastAPI 官方文档,https://fastapi.tiangolo.com/
+SK020,Prompt 工程,Prompt Engineering;提示词工程,AI应用,AI应用,入门,Prompt;提示词,赛题 XH-202621,docs/00-赛事通知/XH-202621_多源异构数据驱动岗位和能力图谱构建与动态演化分析研究.pdf
+SK021,RAG,检索增强生成;Retrieval Augmented Generation,AI应用,AI应用,进阶,RAG;检索增强,OpenAI Retrieval 文档,https://platform.openai.com/docs/guides/retrieval
+SK022,向量数据库,Vector Database,AI基础设施,AI应用,进阶,向量数据库;Embedding,赛题 XH-202621,docs/00-赛事通知/XH-202621_多源异构数据驱动岗位和能力图谱构建与动态演化分析研究.pdf
+SK023,数据清洗,Data Cleaning,数据能力,数据分析;大数据开发,入门,数据清洗;清洗,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK024,数据可视化,Visualization,数据能力,数据分析;前端开发,入门,数据可视化;图表;看板,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK025,Spark,Apache Spark,大数据框架,大数据开发,进阶,Spark,Apache Spark 官方文档,https://spark.apache.org/docs/latest/
+SK026,Hive,Apache Hive,数据仓库,大数据开发,进阶,Hive,Apache Hive 官方文档,https://hive.apache.org/
+SK027,ETL,数据抽取转换加载,数据工程,大数据开发;数据分析,入门,ETL;数据采集;数据处理,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK028,Linux,Linux系统,操作系统,DevOps运维;网络安全;大数据开发;物联网嵌入式,入门,Linux,O*NET Computer Systems Engineers/Architects,https://www.onetonline.org/link/summary/15-1299.08
+SK029,Shell,Shell脚本;Bash,脚本语言,DevOps运维;大数据开发,入门,Shell;Bash,O*NET Computer Systems Engineers/Architects,https://www.onetonline.org/link/summary/15-1299.08
+SK030,Docker,容器,部署工具,DevOps运维,入门,Docker;容器,Docker 官方文档,https://docs.docker.com/
+SK031,Nginx,反向代理;Web服务器,中间件,DevOps运维;后端开发,入门,Nginx;反向代理,Nginx 官方文档,https://nginx.org/en/docs/
+SK032,CI/CD,持续集成;持续部署,工程能力,DevOps运维;软件测试,入门,CI/CD;持续集成;持续部署,O*NET Computer Systems Engineers/Architects,https://www.onetonline.org/link/summary/15-1299.08
+SK033,Prometheus,监控,运维工具,DevOps运维,进阶,Prometheus;监控,Prometheus 官方文档,https://prometheus.io/docs/introduction/overview/
+SK034,OWASP Top 10,Web安全风险,安全知识,网络安全,入门,OWASP;Top 10;Web安全,OWASP Top 10,https://owasp.org/www-project-top-ten/
+SK035,访问控制,权限控制;鉴权,安全能力,网络安全;后端开发,入门,访问控制;权限;鉴权,OWASP Top 10,https://owasp.org/www-project-top-ten/
+SK036,MQTT,MQTT协议,通信协议,物联网嵌入式,入门,MQTT,MQTT 官方说明,https://mqtt.org/
+SK037,C 语言,C语言;C,编程语言,物联网嵌入式,入门,C 语言;C语言,O*NET Computer Systems Engineers/Architects,https://www.onetonline.org/link/summary/15-1299.08
+SK038,机器学习,Machine Learning,算法能力,机器学习算法;数据分析,进阶,机器学习;Machine Learning,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK039,scikit-learn,sklearn,机器学习库,机器学习算法,进阶,scikit-learn;sklearn,scikit-learn 官方文档,https://scikit-learn.org/stable/user_guide.html
+SK040,PyTorch,Torch,深度学习框架,机器学习算法,进阶,PyTorch,Torch 官方教程,https://pytorch.org/tutorials/
+SK041,TensorFlow,TF,深度学习框架,机器学习算法,进阶,TensorFlow;TF,TensorFlow 官方教程,https://www.tensorflow.org/tutorials
+SK042,模型评估,Evaluation Metrics,算法能力,机器学习算法,进阶,模型评估;指标;准确率;召回率,O*NET Data Scientists,https://www.onetonline.org/link/summary/15-2051.00
+SK043,Go,Golang,编程语言,后端开发;DevOps运维,进阶,Go;Golang;GO,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+SK044,TypeScript,TS,编程语言,前端开发,进阶,TypeScript;TS,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2055136913035276288
+SK045,Kafka,Apache Kafka,消息队列,后端开发;大数据开发,进阶,Kafka,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+SK046,RabbitMQ,Rabbit MQ,消息队列,后端开发,进阶,RabbitMQ;Rabbit MQ,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+SK047,MongoDB,Mongo DB,数据库,后端开发,进阶,MongoDB;Mongo DB,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+SK048,ClickHouse,Click House,数据库,后端开发;大数据开发,进阶,ClickHouse;Click House,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+SK049,StarRocks,Star Rocks,数据库,后端开发;大数据开发,进阶,StarRocks;Star Rocks,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+SK050,Canvas,HTML5 Canvas,前端能力,前端开发,进阶,Canvas;HTML5 Canvas,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2055136913035276288
+SK051,WebGL,Web Graphics Library,前端能力,前端开发,进阶,WebGL,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2055136913035276288
+SK052,LLM,大语言模型;Large Language Model,AI能力,AI产品;AI应用;前端开发,进阶,LLM;大语言模型,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2011285787706019840
+SK053,AB实验,A/B实验;AB Test,数据分析,数据分析,进阶,AB实验;A/B实验;ab实验,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2006178598444224512
+SK054,因果推断,Causal Inference,数据分析,数据分析,进阶,因果推断;Causal Inference,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2006178598444224512
+SK055,Kubernetes,K8s,云原生,DevOps运维,进阶,Kubernetes;K8s,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2044972218131312640
+SK056,数据安全,Data Security,安全能力,网络安全,进阶,数据安全;数据全生命周期安全,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=1957354024948879360
+SK057,数据加密,Encryption,安全能力,网络安全,进阶,数据加密;加密,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=1957354024948879360
+SK058,API异常检测,API Anomaly Detection,安全能力,网络安全,进阶,API异常检测;异常检测,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=1957354024948879360
+SK059,嵌入式系统,Embedded System,嵌入式能力,嵌入式开发,进阶,嵌入式系统;固件,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2029340004978950144
+SK060,强化学习,Reinforcement Learning;RL,算法能力,机器学习算法,进阶,强化学习;Reinforcement Learning;RL,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=1985607970624524288

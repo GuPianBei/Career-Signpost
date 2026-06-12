@@ -1,0 +1,27 @@
+relation_id,jd_id,岗位名称,技能名,权重,证据句,关系类型,所属批次,岗位URL
+R001,JD001,元宝数据平台-后台开发工程师,Java,1.0,精通 GO/C++/Java 中的一种或多种,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2041847334320631808
+R002,JD001,元宝数据平台-后台开发工程师,MySQL,1.0,熟悉 MySQL/Redis/MongoDB,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2041847334320631808
+R003,JD001,元宝数据平台-后台开发工程师,Redis,1.0,熟悉 MySQL/Redis/MongoDB,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2041847334320631808
+R004,JD001,元宝数据平台-后台开发工程师,Spark,0.8,熟悉 Spark/ClickHouse/StarRocks,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2041847334320631808
+R005,JD002,AW项目组-AI产品前端工程师,TypeScript,1.0,精通 TypeScript、主流前端框架及构建工具,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2055136913035276288
+R006,JD002,AW项目组-AI产品前端工程师,Canvas,0.8,熟悉 HTML5 Canvas/WebGL,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2055136913035276288
+R007,JD002,AW项目组-AI产品前端工程师,LLM API,0.8,对接 LLM API，参与 AI 对话界面及 Agent 工作流前端实现,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2055136913035276288
+R008,JD003,元宝自动化测试工程师,Python,1.0,精通 Python/GO,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2020809543059144704
+R009,JD003,元宝自动化测试工程师,Postman,0.8,掌握 JMeter/Postman,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2020809543059144704
+R010,JD003,元宝自动化测试工程师,自动化测试,1.0,设计并落地自动化测试体系,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2020809543059144704
+R011,JD004,AI产品经理-AI生成游戏,LLM,1.0,主导 LLM 对话交互设计,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2011285787706019840
+R012,JD004,AI产品经理-AI生成游戏,Prompt 工程,1.0,设计 LLM 的系统提示词,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2011285787706019840
+R013,JD005,元宝高级数据分析师,Python,1.0,熟练使用 Python/R,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2006178598444224512
+R014,JD005,元宝高级数据分析师,AB实验,1.0,有 AB 实验、因果推断经验,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2006178598444224512
+R015,JD005,元宝高级数据分析师,Spark,0.8,熟悉 Hive、Spark,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2006178598444224512
+R016,JD006,大数据开发工程师,SQL,1.0,精通 SQL,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2047219099016265728
+R017,JD006,大数据开发工程师,ETL,1.0,承担数据 ETL 的开发与调度,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2047219099016265728
+R018,JD006,大数据开发工程师,Hive,0.8,有 Spark、Hive 使用经验者优先,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2047219099016265728
+R019,JD007,数据库运维开发工程师,Linux,1.0,熟悉 Linux、TCP/HTTP、Shell,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2044972218131312640
+R020,JD007,数据库运维开发工程师,Docker,0.8,了解 Kubernetes、Docker,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2044972218131312640
+R021,JD008,微信安全-数据安全工程师,数据安全,1.0,熟悉数据全生命周期安全体系,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=1957354024948879360
+R022,JD008,微信安全-数据安全工程师,身份认证,0.8,熟悉身份认证、数据加密、API 异常检测,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=1957354024948879360
+R023,JD009,SSD固件开发高级工程师,C++,1.0,熟练掌握 C/C++、Python/Shell,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2029340004978950144
+R024,JD009,SSD固件开发高级工程师,嵌入式系统,1.0,5年以上嵌入式系统固件开发经验,岗位需要技能,batch_real_20260612,http://careers.tencent.com/jobdesc.html?postId=2029340004978950144
+R025,JD010,Game AI Research Intern,Python,1.0,Python and PyTorch experience,岗位需要技能,batch_real_20260612,https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/AI-Game-AI-Research-Intern_R106377-1
+R026,JD010,Game AI Research Intern,强化学习,1.0,reinforcement learning model tuning,岗位需要技能,batch_real_20260612,https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/AI-Game-AI-Research-Intern_R106377-1

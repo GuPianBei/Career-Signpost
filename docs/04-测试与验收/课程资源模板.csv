@@ -1,0 +1,14 @@
+course_id,课程名称,平台,对应技能,适合阶段,学习时长,推荐理由,依据来源,依据URL
+C001,Java后端开发实战,官方文档+演示课程,Java;服务端开发;后端架构,入门,12,补齐后台开发岗位中的服务端开发和接口实现基础,腾讯招聘真实岗位;O*NET Software Developers,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+C002,MySQL 数据库基础,官方文档+演示课程,MySQL;SQL;数据库设计,入门,10,支撑后台开发、数据分析和运维开发岗位中的数据库能力,MySQL 官方文档,https://dev.mysql.com/doc/
+C003,消息队列与缓存入门,官方文档+演示课程,Redis;Kafka;RabbitMQ;缓存;消息队列,进阶,10,补齐元宝后台开发岗位中 Redis、Kafka、RabbitMQ 等组件能力,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2041847334320631808
+C004,TypeScript 前端工程化,官方文档+演示课程,TypeScript;前端框架;构建工具;代码质量,入门,12,补齐 AI 产品前端岗位中 TypeScript、工程化和可复用架构能力,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2055136913035276288
+C005,Canvas 与 WebGL 交互开发,官方文档+演示课程,Canvas;WebGL;复杂交互;动画,进阶,12,补齐 AI 产品前端和游戏相关前端岗位中的交互渲染能力,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2055136913035276288
+C006,Python 自动化测试,官方文档+演示课程,Python;Pytest;自动化测试;质量报告,入门,10,支撑自动化测试岗位的脚本开发和测试体系建设,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2020809543059144704
+C007,大模型产品与 Prompt 工程,公开课程+演示课程,LLM;Prompt 工程;Few-shot;AI产品设计,入门,8,补齐 AI 产品经理岗位中的 LLM 对话设计、提示词和能力评估能力,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2011285787706019840
+C008,数据科学与 AB 实验,公开课程+演示课程,Python;R;AB实验;因果推断;指标体系,进阶,14,支撑数据分析师岗位中的增长评估、实验分析和指标体系建设,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2006178598444224512
+C009,Spark 与 Hive 数据工程,官方文档+演示课程,Spark;Hive;ETL;SQL;数据链路,进阶,16,补齐大数据开发岗位中的 ETL 调度、数据链路和离线计算能力,腾讯招聘真实岗位;Apache Spark;Apache Hive,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2047219099016265728
+C010,Docker 与 SRE 运维基础,官方文档+演示课程,Docker;Kubernetes;Linux;Shell;监控告警;SRE,进阶,12,支撑数据库运维开发岗位中的自动化、监控和云原生运维能力,腾讯招聘真实岗位;Docker 官方文档,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2044972218131312640
+C011,数据安全与访问控制,公开安全资料+演示课程,数据安全;身份认证;数据加密;API异常检测;渗透测试,进阶,12,补齐微信数据安全岗位中的数据生命周期安全和风险验证能力,腾讯招聘真实岗位;OWASP Top 10,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=1957354024948879360
+C012,嵌入式 C/C++ 与固件开发,官方文档+演示课程,C;C++;Python;Shell;嵌入式系统;固件开发,进阶,16,补齐 SSD 固件岗位中的嵌入式系统、固件开发和自动化测试脚本能力,腾讯招聘真实岗位,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=2029340004978950144
+C013,强化学习与 PyTorch 实践,官方文档+演示课程,Python;PyTorch;强化学习;模型调优;多智能体强化学习,进阶,18,补齐 Game AI Research 岗位中的强化学习算法实现和模型训练能力,腾讯招聘真实岗位;PyTorch 官方教程,https://careers.tencent.com/tencentcareer/api/post/ByPostId?postId=1985607970624524288

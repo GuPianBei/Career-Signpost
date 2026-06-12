@@ -1,0 +1,4 @@
+record_id,student_id,目标岗位,岗位URL,匹配分,已匹配技能,缺失技能,推荐课程,推荐实训任务,证据说明,报告摘要
+REC001,STU001,元宝数据平台-后台开发工程师,http://careers.tencent.com/jobdesc.html?postId=2041847334320631808,52,Java;MySQL;Redis,Spark;Kafka;RabbitMQ;MongoDB;ClickHouse;StarRocks,Java后端开发实战;MySQL 数据库基础,数据服务平台后端接口开发,岗位要求包含 Java、MySQL、Redis 及大数据组件,学生具备 Java 和数据库基础，但缺少消息队列与大数据组件经验，建议先完成数据服务后端接口与消息队列实践。
+REC002,STU002,AW项目组-AI产品前端工程师,http://careers.tencent.com/jobdesc.html?postId=2055136913035276288,61,JavaScript;Vue 3,TypeScript;Canvas;WebGL;LLM API;Agent,Vue 3 前端开发;AI应用前端实践,AI 对话界面与岗位图谱前端实现,岗位要求包含 TypeScript、Canvas/WebGL 和 LLM API 对接,学生具备前端基础，但需要补齐 TypeScript、复杂交互和 AI Agent 前端实现能力。
+REC003,STU003,Game AI Research Intern,https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/AI-Game-AI-Research-Intern_R106377-1,68,Python;机器学习;PyTorch,强化学习;多智能体强化学习;英文技术沟通,机器学习基础;PyTorch 入门,岗位匹配分预测实验与评估报告,岗位要求包含 Python、PyTorch 和强化学习模型调优,学生具备 Python 和机器学习基础，但需要补强化学习实验和英文技术表达能力。

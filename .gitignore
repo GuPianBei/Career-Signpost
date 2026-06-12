@@ -1,0 +1,48 @@
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+application-dev.yml
+application-local.yml
+
+# Logs and runtime output
+*.log
+logs/
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Office temporary files
+~$*
+*.tmp
+
+# Java / Spring
+target/
+build/
+.gradle/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database and large runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
